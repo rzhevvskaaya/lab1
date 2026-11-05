@@ -1,0 +1,37 @@
+[
+  {
+    "query": "Найди ноутбуки дешевле 70 000 рублей",
+    "json": "{\"category\":\"laptop\",\"max_price\":70000,\"sort_by\":\"price_asc\"}",
+    "check": "✅"
+  },
+  {
+    "query": "Покажи самые дорогие смартфоны",
+    "json": "{\"category\":\"smartphone\",\"max_price\":null,\"sort_by\":\"price_desc\"}",
+    "check": "✅"
+  },
+  {
+    "query": "Хочу посмотреть планшеты",
+    "json": "{\"category\":\"tablet\",\"max_price\":null,\"sort_by\":\"price_asc\"}",
+    "check": "✅"
+  },
+  {
+    "query": "Покажи ноутбуки до 50 тысяч",
+    "json": "{\"category\":\"laptop\",\"max_price\":50000,\"sort_by\":\"price_asc\"}",
+    "check": "✅"
+  },
+  {
+    "query": "Найди холодильники",
+    "json": "{\"category\":\"other\",\"max_price\":null,\"sort_by\":\"price_asc\"}",
+    "check": "✅"
+  },
+  {
+    "query": "Нужно что-нибудь недорогое для учёбы",
+    "json": "{\"category\":\"other\",\"max_price\":null,\"sort_by\":\"price_asc\"}",
+    "check": "см. комментарий"
+  },
+  {
+    "query": "Покажи Apple до 100 тысяч",
+    "json": "{\"category\":\"other\",\"max_price\":100000,\"sort_by\":\"price_asc\"}",
+    "check": "см. комментарий"
+  }
+]

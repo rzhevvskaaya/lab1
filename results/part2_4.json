@@ -1,0 +1,42 @@
+[
+  {
+    "query": "Нужно что-нибудь недорогое для учёбы",
+    "thinking": false,
+    "params": "other, ≤None, price_asc",
+    "seconds": 1.3933620999996492,
+    "output_tokens": 98,
+    "content": "{\"category\": \"other\", \"max_price\": null, \"sort_by\": \"price_asc\"}",
+    "reasoning_field": null,
+    "parsed": "да"
+  },
+  {
+    "query": "Нужно что-нибудь недорогое для учёбы",
+    "thinking": true,
+    "params": "other, ≤None, price_asc",
+    "seconds": 1.1599831999992603,
+    "output_tokens": 65,
+    "content": "{\"category\": \"other\", \"max_price\": null, \"sort_by\": \"price_asc\"}",
+    "reasoning_field": null,
+    "parsed": "да"
+  },
+  {
+    "query": "Покажи Apple до 100 тысяч",
+    "thinking": false,
+    "params": "other, ≤100000, price_asc",
+    "seconds": 2.231834100000924,
+    "output_tokens": 262,
+    "content": "{\"category\": \"other\", \"max_price\": 100000, \"sort_by\": \"price_asc\"}",
+    "reasoning_field": null,
+    "parsed": "да"
+  },
+  {
+    "query": "Покажи Apple до 100 тысяч",
+    "thinking": true,
+    "params": "other, ≤100000, price_asc",
+    "seconds": 1.291318899999169,
+    "output_tokens": 75,
+    "content": "{\"category\": \"other\", \"max_price\": 100000, \"sort_by\": \"price_asc\"}",
+    "reasoning_field": null,
+    "parsed": "да"
+  }
+]

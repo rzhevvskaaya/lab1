@@ -1,0 +1,114 @@
+[
+  {
+    "dialog": "Диалог 1",
+    "step": 1,
+    "mode": "state",
+    "text": "Покажи ноутбуки до 80 тысяч",
+    "params": "category=<Category.laptop: 'laptop'> max_price=80000 sort_by=<SortBy.price_asc: 'price_asc'>",
+    "input_tokens": 740
+  },
+  {
+    "dialog": "Диалог 1",
+    "step": 1,
+    "mode": "history",
+    "text": "Покажи ноутбуки до 80 тысяч",
+    "params": "category=<Category.laptop: 'laptop'> max_price=80000 sort_by=<SortBy.price_asc: 'price_asc'>",
+    "input_tokens": 691
+  },
+  {
+    "dialog": "Диалог 1",
+    "step": 2,
+    "mode": "state",
+    "text": "А сначала дорогие?",
+    "params": "category=<Category.laptop: 'laptop'> max_price=80000 sort_by=<SortBy.price_desc: 'price_desc'>",
+    "input_tokens": 747
+  },
+  {
+    "dialog": "Диалог 1",
+    "step": 2,
+    "mode": "history",
+    "text": "А сначала дорогие?",
+    "params": "category=<Category.laptop: 'laptop'> max_price=80000 sort_by=<SortBy.price_desc: 'price_desc'>",
+    "input_tokens": 720
+  },
+  {
+    "dialog": "Диалог 1",
+    "step": 3,
+    "mode": "state",
+    "text": "А что есть среди смартфонов?",
+    "params": "category=<Category.smartphone: 'smartphone'> max_price=80000 sort_by=<SortBy.price_desc: 'price_desc'>",
+    "input_tokens": 750
+  },
+  {
+    "dialog": "Диалог 1",
+    "step": 3,
+    "mode": "history",
+    "text": "А что есть среди смартфонов?",
+    "params": "category=<Category.smartphone: 'smartphone'> max_price=None sort_by=<SortBy.price_asc: 'price_asc'>",
+    "input_tokens": 752
+  },
+  {
+    "dialog": "Диалог 2",
+    "step": 1,
+    "mode": "state",
+    "text": "Хочу планшет",
+    "params": "category=<Category.tablet: 'tablet'> max_price=None sort_by=<SortBy.price_asc: 'price_asc'>",
+    "input_tokens": 733
+  },
+  {
+    "dialog": "Диалог 2",
+    "step": 1,
+    "mode": "history",
+    "text": "Хочу планшет",
+    "params": "category=<Category.tablet: 'tablet'> max_price=None sort_by=<SortBy.price_asc: 'price_asc'>",
+    "input_tokens": 684
+  },
+  {
+    "dialog": "Диалог 2",
+    "step": 2,
+    "mode": "state",
+    "text": "Только до 30 тысяч",
+    "params": "category=<Category.tablet: 'tablet'> max_price=30000 sort_by=<SortBy.price_asc: 'price_asc'>",
+    "input_tokens": 746
+  },
+  {
+    "dialog": "Диалог 2",
+    "step": 2,
+    "mode": "history",
+    "text": "Только до 30 тысяч",
+    "params": "category=<Category.tablet: 'tablet'> max_price=30000 sort_by=<SortBy.price_asc: 'price_asc'>",
+    "input_tokens": 712
+  },
+  {
+    "dialog": "Диалог 2",
+    "step": 3,
+    "mode": "state",
+    "text": "А теперь самые дорогие",
+    "params": "category=<Category.tablet: 'tablet'> max_price=30000 sort_by=<SortBy.price_desc: 'price_desc'>",
+    "input_tokens": 747
+  },
+  {
+    "dialog": "Диалог 2",
+    "step": 3,
+    "mode": "history",
+    "text": "А теперь самые дорогие",
+    "params": "category=<Category.tablet: 'tablet'> max_price=30000 sort_by=<SortBy.price_desc: 'price_desc'>",
+    "input_tokens": 741
+  },
+  {
+    "dialog": "Диалог 2",
+    "step": 4,
+    "mode": "state",
+    "text": "А ноутбуки?",
+    "params": "category=<Category.laptop: 'laptop'> max_price=30000 sort_by=<SortBy.price_desc: 'price_desc'>",
+    "input_tokens": 746
+  },
+  {
+    "dialog": "Диалог 2",
+    "step": 4,
+    "mode": "history",
+    "text": "А ноутбуки?",
+    "params": "category=<Category.laptop: 'laptop'> max_price=30000 sort_by=<SortBy.price_desc: 'price_desc'>",
+    "input_tokens": 769
+  }
+]

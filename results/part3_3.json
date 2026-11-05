@@ -1,0 +1,280 @@
+[
+  {
+    "query": "Найди ноутбуки дешевле 70 000 рублей",
+    "params": {
+      "category": "laptop",
+      "max_price": 70000,
+      "sort_by": "price_asc"
+    },
+    "status": "ok",
+    "items": [
+      {
+        "id": 1,
+        "name": "Lenovo IdeaPad 1 15",
+        "category": "laptop",
+        "price": 42990
+      },
+      {
+        "id": 2,
+        "name": "ASUS VivoBook 15",
+        "category": "laptop",
+        "price": 54990
+      },
+      {
+        "id": 3,
+        "name": "Acer Aspire 5",
+        "category": "laptop",
+        "price": 61990
+      },
+      {
+        "id": 4,
+        "name": "MSI Modern 14",
+        "category": "laptop",
+        "price": 69990
+      }
+    ],
+    "correct": true
+  },
+  {
+    "query": "Покажи самые дорогие смартфоны",
+    "params": {
+      "category": "smartphone",
+      "max_price": null,
+      "sort_by": "price_desc"
+    },
+    "status": "ok",
+    "items": [
+      {
+        "id": 12,
+        "name": "Samsung Galaxy S24 Ultra",
+        "category": "smartphone",
+        "price": 119990
+      },
+      {
+        "id": 11,
+        "name": "Apple iPhone 15",
+        "category": "smartphone",
+        "price": 79990
+      },
+      {
+        "id": 10,
+        "name": "Google Pixel 8",
+        "category": "smartphone",
+        "price": 52990
+      },
+      {
+        "id": 9,
+        "name": "Samsung Galaxy A35",
+        "category": "smartphone",
+        "price": 29990
+      },
+      {
+        "id": 8,
+        "name": "POCO X6",
+        "category": "smartphone",
+        "price": 24990
+      },
+      {
+        "id": 7,
+        "name": "Xiaomi Redmi Note 13",
+        "category": "smartphone",
+        "price": 17990
+      }
+    ],
+    "correct": true
+  },
+  {
+    "query": "Хочу посмотреть планшеты",
+    "params": {
+      "category": "tablet",
+      "max_price": null,
+      "sort_by": "price_asc"
+    },
+    "status": "ok",
+    "items": [
+      {
+        "id": 13,
+        "name": "Lenovo Tab M10",
+        "category": "tablet",
+        "price": 15990
+      },
+      {
+        "id": 14,
+        "name": "Samsung Galaxy Tab A9",
+        "category": "tablet",
+        "price": 17990
+      },
+      {
+        "id": 15,
+        "name": "Xiaomi Pad 6",
+        "category": "tablet",
+        "price": 31990
+      },
+      {
+        "id": 16,
+        "name": "Apple iPad 10",
+        "category": "tablet",
+        "price": 39990
+      },
+      {
+        "id": 17,
+        "name": "Apple iPad Pro 11",
+        "category": "tablet",
+        "price": 99990
+      }
+    ],
+    "correct": true
+  },
+  {
+    "query": "Покажи ноутбуки до 50 тысяч",
+    "params": {
+      "category": "laptop",
+      "max_price": 50000,
+      "sort_by": "price_asc"
+    },
+    "status": "ok",
+    "items": [
+      {
+        "id": 1,
+        "name": "Lenovo IdeaPad 1 15",
+        "category": "laptop",
+        "price": 42990
+      }
+    ],
+    "correct": true
+  },
+  {
+    "query": "Найди холодильники",
+    "params": {
+      "category": "other",
+      "max_price": null,
+      "sort_by": "price_asc"
+    },
+    "status": "unsupported_category",
+    "items": [],
+    "correct": true
+  },
+  {
+    "query": "Смартфоны до 20 000 рублей",
+    "params": {
+      "category": "smartphone",
+      "max_price": 20000,
+      "sort_by": "price_asc"
+    },
+    "status": "ok",
+    "items": [
+      {
+        "id": 7,
+        "name": "Xiaomi Redmi Note 13",
+        "category": "smartphone",
+        "price": 17990
+      }
+    ],
+    "correct": true
+  },
+  {
+    "query": "Ноутбуки до 30 тысяч",
+    "params": {
+      "category": "laptop",
+      "max_price": 30000,
+      "sort_by": "price_asc"
+    },
+    "status": "empty",
+    "items": [],
+    "correct": true
+  },
+  {
+    "query": "Планшеты до 10 000",
+    "params": {
+      "category": "tablet",
+      "max_price": 10000,
+      "sort_by": "price_asc"
+    },
+    "status": "empty",
+    "items": [],
+    "correct": true
+  },
+  {
+    "query": "Покажи самые дешевые планшеты до 35 тысяч",
+    "params": {
+      "category": "tablet",
+      "max_price": 35000,
+      "sort_by": "price_asc"
+    },
+    "status": "ok",
+    "items": [
+      {
+        "id": 13,
+        "name": "Lenovo Tab M10",
+        "category": "tablet",
+        "price": 15990
+      },
+      {
+        "id": 14,
+        "name": "Samsung Galaxy Tab A9",
+        "category": "tablet",
+        "price": 17990
+      },
+      {
+        "id": 15,
+        "name": "Xiaomi Pad 6",
+        "category": "tablet",
+        "price": 31990
+      }
+    ],
+    "correct": true
+  },
+  {
+    "query": "Сначала дорогие ноутбуки до 80 тысяч",
+    "params": {
+      "category": "laptop",
+      "max_price": 80000,
+      "sort_by": "price_desc"
+    },
+    "status": "ok",
+    "items": [
+      {
+        "id": 5,
+        "name": "HP Pavilion 15",
+        "category": "laptop",
+        "price": 74990
+      },
+      {
+        "id": 4,
+        "name": "MSI Modern 14",
+        "category": "laptop",
+        "price": 69990
+      },
+      {
+        "id": 3,
+        "name": "Acer Aspire 5",
+        "category": "laptop",
+        "price": 61990
+      },
+      {
+        "id": 2,
+        "name": "ASUS VivoBook 15",
+        "category": "laptop",
+        "price": 54990
+      },
+      {
+        "id": 1,
+        "name": "Lenovo IdeaPad 1 15",
+        "category": "laptop",
+        "price": 42990
+      }
+    ],
+    "correct": true
+  },
+  {
+    "query": "Хочу телевизор",
+    "params": {
+      "category": "other",
+      "max_price": null,
+      "sort_by": "price_asc"
+    },
+    "status": "unsupported_category",
+    "items": [],
+    "correct": true
+  }
+]

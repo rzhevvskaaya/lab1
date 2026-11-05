@@ -1,0 +1,92 @@
+[
+  {
+    "query": "Найди ноутбуки дешевле 70 000 рублей",
+    "text": "",
+    "tool_calls": [
+      {
+        "name": "search_products",
+        "args": {
+          "category": "laptop",
+          "max_price": 70000,
+          "sort_by": "price_asc"
+        },
+        "id": "call_00_ET_uFRvWdVZJoQmgK7ZyeoN2747",
+        "type": "tool_call"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "query": "Покажи самые дорогие смартфоны",
+    "text": "",
+    "tool_calls": [
+      {
+        "name": "search_products",
+        "args": {
+          "category": "smartphone",
+          "sort_by": "price_desc"
+        },
+        "id": "call_00_ET_bEOaVPDKyqLNsfi8zDOU3042",
+        "type": "tool_call"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "query": "Хочу посмотреть планшеты",
+    "text": "",
+    "tool_calls": [
+      {
+        "name": "search_products",
+        "args": {
+          "category": "tablet",
+          "max_price": null,
+          "sort_by": "price_asc"
+        },
+        "id": "call_00_csGsnzEurGAPwfhIblYG4063",
+        "type": "tool_call"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "query": "Покажи ноутбуки до 50 тысяч",
+    "text": "",
+    "tool_calls": [
+      {
+        "name": "search_products",
+        "args": {
+          "category": "laptop",
+          "max_price": 50000,
+          "sort_by": "price_asc"
+        },
+        "id": "call_00_ET_jIzNUTSvzzBG3v9YtItF7130",
+        "type": "tool_call"
+      }
+    ],
+    "status": "ok"
+  },
+  {
+    "query": "Найди холодильники",
+    "text": "",
+    "tool_calls": [
+      {
+        "name": "search_products",
+        "args": {
+          "category": "other",
+          "max_price": null,
+          "sort_by": "price_asc"
+        },
+        "id": "call_00_G73Ko8BzB7o8fArnmspd4745",
+        "type": "tool_call"
+      }
+    ],
+    "status": "unsupported_category"
+  },
+  {
+    "query": "Привет! Как дела?",
+    "text": "Привет! У меня всё отлично, спасибо — готов помочь с подбором товаров 😊\n\nЧто ищете? Например, могу найти ноутбук, смартфон или планшет с нужным бюджетом — просто скажите категорию и максимальную цену.",
+    "tool_calls": null,
+    "status": "no_tool_call"
+  }
+]

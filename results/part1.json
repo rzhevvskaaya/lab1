@@ -1,0 +1,10 @@
+{
+  "llm.invoke type": "AIMessage",
+  "chain.invoke type": "TextAccessor",
+  "chain.invoke": "Ноутбуки",
+  "batch": [
+    "Ноутбуки",
+    "Смартфоны",
+    "Планшеты"
+  ]
+}
